@@ -1,0 +1,7 @@
+x = input('Digite algo: ')
+print('O tipo primitivo desse valor é: ', type(x))
+print('É composto por letras minúsculas? ', x.islower())
+print('É composto por letras maiúsculas? ', x.isupper())
+print('É composto por letras? ', x.isalpha())
+print('É composto por números? ', x.isnumeric())
+print('É composto por uma letra ou um número?', x.isalnum())
